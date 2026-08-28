@@ -1,0 +1,21 @@
+name: en5425
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.11
+  - pytorch>=2.2
+  - numpy>=1.26
+  - pandas>=2.1
+  - xarray>=2024.1
+  - netcdf4>=1.6
+  - zarr>=2.16
+  - matplotlib>=3.8
+  - scikit-learn>=1.4
+  - jupyter>=1.0
+  - wandb>=0.16
+  - pip
+  - pip:
+      - torchgeo>=0.5
+      - huggingface_hub>=0.20
+      - peft>=0.8

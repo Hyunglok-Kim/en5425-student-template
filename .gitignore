@@ -1,0 +1,54 @@
+# --- Data (never commit datasets; reference them by script or path) ---
+data/
+*/data/
+*.csv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+
+# Exception: the small course-provided HW0 dataset ships with the repo
+!hw0/data/
+!hw0/data/hw0_soil_moisture.csv
+
+# Large rasters / NetCDF / Zarr
+*.nc
+*.nc4
+*.tif
+*.tiff
+*.grib
+*.grib2
+*.zarr
+*.zarr/
+
+# --- Model checkpoints & weights ---
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+checkpoints/
+weights/
+
+# --- Experiment tracking ---
+wandb/
+mlruns/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# --- Secrets & environment ---
+.env
+.env.*
+*.key
+
+# --- OS / editor noise ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
