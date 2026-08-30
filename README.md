@@ -31,7 +31,7 @@ This repository is your **semester workspace** for EN5425/EV4240. Your code, lab
 | `memos/` | Optional drafts of your entrance tickets (`weekNN.md` is just the ticket's label) — the ticket of record is submitted as text on the course site by **Sunday 13:00 KST** |
 | `notes/` | Research notes: one note **after every lab**, using `notes/TEMPLATE.md` |
 | `project/` | Your capstone foundation-model project (milestones from Week 4 onward) |
-| `hw0/` | HW0, the pass/fail gate assignment (spec in `hw0/README.md`) |
+| `hw0/` | HW0, your ungraded starter project (spec in `hw0/README.md`) |
 | `profile/` | Your profile card (`profile/profile.md`, photo optional) for the course site's public Cohort page |
 | `scripts/` | Course-provided utility scripts (e.g., the HW0 data generator) |
 
@@ -65,8 +65,9 @@ This repository is your **semester workspace** for EN5425/EV4240. Your code, lab
 
 ## First deadlines
 
-- **HW0** (see `hw0/README.md`): PDF report due **Sunday 9/6, 23:59 KST on the course
-  site**. It is pass/fail and a hard gate for the project.
+- **HW0** (see `hw0/README.md`): PDF report due **Monday 9/14, 23:59 KST on the course
+  site**. Ungraded — it's the course's on-ramp, and everyone submits it. Stuck? Ask the
+  researchers in S6, room 317 (HydroAI lab).
 - **Week 1 + Week 2 entrance tickets** (on the papers assigned in the first class —
   Attention + ViT — and Reichstein et al. 2019): both due **Sun 9/6, 13:00 KST** on the
   course site. There is no pre-work before the first class on 8/31.

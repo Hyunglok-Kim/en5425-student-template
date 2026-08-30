@@ -1,16 +1,20 @@
-# HW0 — The Gate Assignment
+# HW0 — Your Starter Project
 
-**Due: Sunday 2026-09-06, 23:59 KST** (before the Week 2 session on 9/7). Submit the PDF report on the course site (sign in from the top menu); work lives in your repo.
+**Due: Monday 2026-09-14, 23:59 KST** (two weeks after the first class). Submit the PDF report on the course site (sign in from the top menu); work lives in your repo.
 
-> **HW0 is pass/fail and is a hard gate for the project (60% of your grade): project
-> milestones will not be accepted without a passed HW0.** It is designed to take
-> **4–8 hours with an AI coding agent** if your prerequisites are in place. If it takes far
-> longer, that is precise, personal information about what this course will cost you
-> weekly — use it before add/drop closes. Late HW0 without prior arrangement is treated as
-> a signal that you have decided to drop; the instructor will contact you to confirm.
+> **HW0 is not graded and there is no pass/fail.** It is simply how *you* find out,
+> hands-on, whether you can run this course's weekly workflow — and every later lab
+> builds on the setup it leaves behind, so **everyone submits it**. Think of it as the
+> course's on-ramp, not a test. It is designed for **4–8 relaxed hours with an AI coding
+> agent**. Going to be late? Just tell the instructor — we'll sort it out together.
+>
+> **Stuck on anything — environment, git, Colab, the model?** Come to **S6, room 317
+> (the HydroAI lab)** and ask the lab researchers. They are expecting you, they enjoy
+> these questions, and asking is exactly how this course is meant to work.
 
-**HW0 is the enrollment reality-check. It is deliberately a compressed sample of an
-ordinary week.** If HW0 takes you 20 hours, this course will take you 20 hours a week.
+**HW0 is also an honest preview: it is a compressed sample of an ordinary week.** If it
+takes far longer than 8 hours, that's useful, personal information — bring it to office
+hours and we'll plan around it, kindly.
 
 The dataset ships with this repo at `hw0/data/hw0_soil_moisture.csv` (~10,000 rows:
 `station_id, date, precip_mm, air_temp_c, ndvi, sand_frac, clay_frac, elevation_m,
@@ -69,9 +73,9 @@ sm_target`, where `sm_target` is volumetric soil moisture in m³/m³).
 - [ ] Compute proof (screenshot/log) included in the PDF report
 - [ ] ≥ 5 meaningful commits; repo URL included in the PDF report, submitted on the course site by the deadline
 
-## Pass/fail rubric
+## What a complete HW0 looks like
 
-| Criterion | Pass requires |
+| Item | Complete means |
 |---|---|
 | Reproducibility | Fresh clone + documented env → `python train_mlp.py` runs to completion |
 | Data hygiene | Temporal split with no leakage; scaling fit on train only |
@@ -82,7 +86,6 @@ sm_target`, where `sm_target` is volumetric soil moisture in m³/m³).
 | Git practice | ≥ 5 informative commits; no secrets/datasets > 50 MB committed |
 | Comprehension | Agent-accountability section is specific and correct (spot-checked; some students will be asked to explain a line in Week 2) |
 
-**All rows must pass.** One borderline row → 48-hour resubmission window, once. HW0 not
-passed by the resubmission deadline → meeting with instructor; in nearly all such cases
-the right decision is to drop while add/drop is open, and I will say so kindly and
-directly.
+This table is a **checklist, not a grade** — you'll get feedback on it, and you can
+resubmit freely. If several rows feel out of reach even after a visit to S6 317, come
+talk to the instructor: we'll figure out the right plan together, with zero judgment.
