@@ -11,6 +11,10 @@ data/
 !hw0/data/
 !hw0/data/hw0_soil_moisture.csv
 
+# Exception: the course copy of the CAMELS attributes table (Lab 02)
+!labs/data/
+!labs/data/camels_attributes.csv
+
 # Large rasters / NetCDF / Zarr
 *.nc
 *.nc4
