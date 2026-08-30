@@ -32,6 +32,7 @@ This repository is your **semester workspace** for EN5425/EV4240. Everything you
 | `notes/` | Research notes: one note **after every lab**, using `notes/TEMPLATE.md` |
 | `project/` | Your capstone foundation-model project (milestones from Week 4 onward) |
 | `hw0/` | HW0, the pass/fail gate assignment (spec in `hw0/README.md`) |
+| `profile/` | Your profile card (`profile/profile.md`, photo optional) for the course site's public Cohort page |
 | `scripts/` | Course-provided utility scripts (e.g., the HW0 data generator) |
 
 ## Conventions (read once, follow all semester)
@@ -48,6 +49,11 @@ This repository is your **semester workspace** for EN5425/EV4240. Everything you
   for every line an agent writes, and a readable commit history is the record of how the
   work actually happened. "add temporal split + train-only scaling" is a commit message;
   "update" is not.
+- **Profile card.** `profile/profile.md` is your self-authored card on the course site's
+  **public Cohort page** — fill in the two lines (display name + one-line bio) as part of
+  HW0. A photo (`profile/photo.jpg`, square, ≤ 1 MB) is optional and entirely self-chosen:
+  a drawing, avatar, or favorite satellite image is equally welcome. It is public, so
+  share only what you are comfortable with.
 - **Never commit data or model checkpoints.** No datasets, no `*.pt` / `*.ckpt` /
   `*.safetensors`, no `wandb/` run directories, nothing over 50 MB. The `.gitignore` in
   this repo enforces most of this — do not fight it. Data is referenced by download

@@ -30,6 +30,10 @@ sm_target`, where `sm_target` is volumetric soil moisture in m³/m³).
    page). The dataset ships with the template at `hw0/data/hw0_soil_moisture.csv`
    (~10,000 rows: `station_id, date, precip_mm, air_temp_c, ndvi, sand_frac, clay_frac,
    elevation_m, sm_target` where `sm_target` is volumetric soil moisture in m³/m³).
+   While you are in the repo, fill in your profile card: `profile/profile.md`
+   (display name + one-line bio; photo optional — see the notes in that file). It feeds
+   the course site's public Cohort page — **required for the cohort page, not part of the
+   rubric**.
 4. **Train a small MLP** (`train_mlp.py`, runnable as `python train_mlp.py`): temporal
    train/val/test split (train ≤ 2018, val 2019, test 2020 — no leakage); standardize
    features using **train-set statistics only**; MLP with 1–2 hidden layers in PyTorch;
@@ -60,6 +64,8 @@ sm_target`, where `sm_target` is volumetric soil moisture in m³/m³).
 - [ ] `results/metrics.json` and `results/loss_curve.png`
 - [ ] `report.md` (1 page, incl. baselines table + agent-accountability section)
 - [ ] `notes/week01.md`
+- [ ] `profile/profile.md` filled in (photo optional) — required for the cohort page, not
+      part of the rubric
 - [ ] Compute proof (screenshot/log, via LMS)
 - [ ] ≥ 5 meaningful commits; repo URL submitted on LMS by the deadline
 
