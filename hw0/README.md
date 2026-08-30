@@ -30,7 +30,7 @@ sm_target`, where `sm_target` is volumetric soil moisture in m³/m³).
    page). The dataset ships with the template at `hw0/data/hw0_soil_moisture.csv`
    (~10,000 rows: `station_id, date, precip_mm, air_temp_c, ndvi, sand_frac, clay_frac,
    elevation_m, sm_target` where `sm_target` is volumetric soil moisture in m³/m³).
-   While you are in the repo, fill in your profile card: `profile/profile.md`
+   While you are in the repo, set your cohort profile **on the course site** (sign in → Profile & avatar: display name, one-line bio, optional avatar ≤ 1 MB) — formerly `profile/profile.md`
    (display name + one-line bio; photo optional — see the notes in that file). It feeds
    the course site's public Cohort page — **required for the cohort page, not part of the
    rubric**.
@@ -43,7 +43,7 @@ sm_target`, where `sm_target` is volumetric soil moisture in m³/m³).
    expected but not required — if you don't, say why you think so.
 6. **Log the run.** Save `results/metrics.json` (all three models' metrics + seed +
    hyperparameters) and `results/loss_curve.png` (train + val loss vs. epoch).
-7. **Report** (`report.md`, ~1 page): setup, split protocol, results table, the
+7. **Report** — write `report.md` (~1 page) in the repo, export it to **PDF (≤ 5 MB)** and submit the PDF on the course site: setup, split protocol, results table, the
    loss-curve figure, 3–5 sentences of interpretation, and one thing you would try next.
 8. **First research note** (`notes/week01.md`, ~half page) using the course
    template: *What I did / What I learned / What confused me / Open questions.* Research
@@ -55,7 +55,7 @@ sm_target`, where `sm_target` is volumetric soil moisture in m³/m³).
    oral-defense muscle. Start now.)
 10. **Push everything** with a clean history: **at least 5 meaningful commits with
     informative messages** (not one giant "final" commit). Submit the repo URL plus your
-    GPU/Colab proof via LMS.
+    GPU/Colab proof **inside the PDF report you submit on the course site**.
 
 ## Deliverables checklist (all in the pushed repo unless noted)
 
@@ -64,10 +64,10 @@ sm_target`, where `sm_target` is volumetric soil moisture in m³/m³).
 - [ ] `results/metrics.json` and `results/loss_curve.png`
 - [ ] `report.md` (1 page, incl. baselines table + agent-accountability section)
 - [ ] `notes/week01.md`
-- [ ] `profile/profile.md` filled in (photo optional) — required for the cohort page, not
-      part of the rubric
-- [ ] Compute proof (screenshot/log, via LMS)
-- [ ] ≥ 5 meaningful commits; repo URL submitted on LMS by the deadline
+- [ ] Cohort profile set on the course site (display name + bio; avatar optional) — required
+      for the cohort page, not part of the rubric
+- [ ] Compute proof (screenshot/log) included in the PDF report
+- [ ] ≥ 5 meaningful commits; repo URL included in the PDF report, submitted on the course site by the deadline
 
 ## Pass/fail rubric
 

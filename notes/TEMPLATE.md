@@ -5,7 +5,8 @@ EN5425 research-note template.
 Write one note after EVERY lab (and any substantial work session), the same
 week the work happened. Copy this file to notes/weekNN.md (e.g., notes/week01.md).
 About half a page. Written in YOUR own words - these notes will later be
-published to your course-website notes section, and they are part of
+exported to PDF and submitted on the course site (Sunday 23:59 KST of the
+teaching week). Content stays private; they are part of
 AI-agent accountability: they record what you actually understood.
 -->
 
