@@ -1,6 +1,6 @@
 # HW0 — The Gate Assignment
 
-**Due: Sunday 2026-09-06, 23:59 KST** (before the Week 2 session on 9/7). Submit the PDF report on the student portal; work lives in your repo.
+**Due: Sunday 2026-09-06, 23:59 KST** (before the Week 2 session on 9/7). Submit the PDF report on the course site (sign in from the top menu); work lives in your repo.
 
 > **HW0 is pass/fail and is a hard gate for the project (60% of your grade): project
 > milestones will not be accepted without a passed HW0.** It is designed to take
@@ -21,8 +21,8 @@ sm_target`, where `sm_target` is volumetric soil moisture in m³/m³).
 1. **Environment & accounts.** Working Python 3.11 env (`conda` or `uv`) named `en5425`,
    exported to `environment.yml` or `pyproject.toml` + lockfile. GitHub account with SSH
    key configured. `git` configured with your real name and university email.
-2. **Compute check.** Either SSH into the course GPU server (instructions on course site)
-   *or* use Google Colab with GPU runtime. Capture proof: output of `nvidia-smi`, or a
+2. **Compute check.** Use Google Colab with a GPU runtime (or a Kaggle GPU notebook —
+   both are set up in the Week 1 lab). Capture proof: output of `nvidia-smi`, or a
    Colab cell showing `torch.cuda.is_available() == True` (CPU-only fallback accepted with
    a note explaining why).
 3. **Repo.** Work in the `hw0/` directory of your semester repository
