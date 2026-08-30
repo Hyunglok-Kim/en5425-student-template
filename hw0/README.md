@@ -1,6 +1,6 @@
 # HW0 — The Gate Assignment
 
-**Due: 48 h before the Week 2 session (Sunday 23:59 KST).**
+**Due: Sunday 2026-09-06, 23:59 KST** (before the Week 2 session on 9/7). Submit the PDF report on the student portal; work lives in your repo.
 
 > **HW0 is pass/fail and is a hard gate for the project (60% of your grade): project
 > milestones will not be accepted without a passed HW0.** It is designed to take
