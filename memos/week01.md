@@ -4,8 +4,9 @@
 EN5425 weekly paper memo.
 This file is an optional DRAFT. The ticket of record is submitted as TEXT on
 the course site by Sunday 13:00 KST (W1's ticket is due 9/6 13:00 together
-with W2's). Write in your own words; tickets are published on the site's
-Journal Club tab and seed the 30-minute discussion.
+with W2's). Write in your own words. Tickets are read by the instructor/TA
+only — classmates see just who submitted on the prep board — and they seed
+the 30-minute discussion.
 Fill every section below; delete nothing but these comments.
 -->
 

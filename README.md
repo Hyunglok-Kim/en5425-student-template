@@ -41,7 +41,7 @@ This repository is your **semester workspace** for EN5425/EV4240. Your code, lab
   **Sunday 13:00 KST** before each session — 11 opportunities (W1–7, W9–12); W1's is due
   together with W2's on Sun 9/6. Format: 3-sentence summary, substantive critique, capstone
   connection, one real question. Tickets are 15% (best 10 × 1.5%, W1 non-droppable) and are
-  published on the site's Journal Club tab.
+  written on the site's Journal Club page (private to instructor/TA; classmates see who submitted).
 - **Research note after every lab.** Copy `notes/TEMPLATE.md` to
   `notes/weekNN.md` (e.g., `notes/week01.md`) and fill it in the same week as the lab. Notes are a weekly
   habit, written in your own words; export each finished note to PDF and submit it on the
