@@ -95,6 +95,17 @@ Re-run the sweep winner **and** the gradient-boosting baseline. Then fill in:
 If your gap is near zero, that is also a finding — explain why (which features
 carry information that transfers across regions?).
 
+### Built-in honesty checks (do not skip)
+
+The notebook will not let you coast:
+
+- 🪤 **a trap cell** trains the leaky model most first drafts build (signatures left in,
+  R² ≈ 0.94) — your note must explain why that number is a lie;
+- ✍️ **a prediction gate** — you must write down your expected gap *before* the experiment runs;
+- ✍️ **a fill-in blank** — you set the spatial grouping yourself.
+
+**One question in next Monday's reading quiz comes from this notebook.**
+
 ## 5 · Write Note 02 (10 min)
 
 Copy `notes/TEMPLATE.md` → `notes/week02.md` and include:
